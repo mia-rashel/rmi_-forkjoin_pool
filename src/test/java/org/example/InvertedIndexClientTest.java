@@ -11,7 +11,7 @@ public class InvertedIndexClientTest {
     @Test
     public void testInvertedIndex() throws Exception {
         // Lookup the RMI service
-        InvertedIndexService invertedIndexService = (InvertedIndexService) Naming.lookup("rmi://127.0.0.1:8099/InvertedIndexService");
+        InvertedIndexService invertedIndexService = (InvertedIndexService) Naming.lookup("rmi://127.0.0.1:9999/InvertedIndexService");
 
         // Specify the file name to process
         String fileName = "src/main/resources/sample_data.txt"; // Replace with the actual file name
